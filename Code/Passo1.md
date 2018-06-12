@@ -1,5 +1,6 @@
 **pre:**
- arquivos em formatação [Json](http://nitanilla.com/svm-issues/ml-queries/). São 55 queries, cada query numa pasta.
+
+arquivos em formatação [Json](http://nitanilla.com/svm-issues/ml-queries/). São 55 queries, cada query numa pasta.
 Cada pasta contem 10 json files. Em cada json file tem se 100 issues
 
 **argumentações:**
@@ -10,7 +11,8 @@ Cada pasta contem 10 json files. Em cada json file tem se 100 issues
 - se agregam colunas para cada tipo de label: bug, enhancement, question, wontfix, duplicated, invalid
 - se marca cada coluna de label segum a classifição. A classificação de labels verifica labels criadas por usuarios. ex: "type-enhancement" e nao somente aquelas proprias do GitHub
 
-**pos**
+**pos:**
+
 um dataset de issues chamado [ds.imasmari.github](http://nitanilla.com/svm-issues/passo1/ds.imasmari.github.Rda) contendo os seguintes atributos: 
 
 - 	id: GitHub issue id
